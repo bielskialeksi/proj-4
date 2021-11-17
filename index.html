@@ -14,58 +14,66 @@
   </head>
   <body>
 
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed navbar-fixed-zindex">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#Aleksi">Aleksi</a></li>
+        <li><a href="#Shurturgal">Shurturgal</a></li>
+        <li class="divider"></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#presentation">presentation</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+          </ul>
+        </div>
+      </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
-    </ul>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="badges.html">Components</a></li>
+        <li class="divider"></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li class="divider"></li>
+        <li><a href="mobile.html">Mobile</a></li>
+        <li class="divider"></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class="divider"></li>
+      </ul>
+    </div>
 
 
-
-
-      <div class="row">
-        <div class="col s12 m6 l3 offset-l3 hoverable">
-          <div class="card">
-            <div class="card-image">
-              <img src="image/jevilpfp.jpg">
-              <span class="card-title">Aleksi</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
+    <div class="row" id="presentation">
+      <div class="col s12 m10 l3 offset-l2 offset-m1 hoverable margin-top" >
+        <div class="card" id="Aleksi">
+          <div class="card-image">
+            <img src="image/jevilpfp.jpg">
+            <span class="card-title">Aleksi</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
           </div>
         </div>
-        <div class="col s12 m6 l3 hoverable">
-          <div class="card">
-            <div class="card-image">
-              <img src="image/tetopfp.jpg">
-              <span class="card-title">Shurturgal</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
+      </div>
+      <div class="col s12 m10 l3 offset-l2 offset-m1 hoverable margin-top" >
+        <div class="card" id="Shurturgal">
+          <div class="card-image">
+            <img src="image/tetopfp.jpg">
+            <span class="card-title">Shurturgal</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
           </div>
         </div>
       </div>
@@ -73,7 +81,7 @@
     <h1 class="center-align flow-text">Parce que ce sont nos Projets!</h1>
     <div class="row">
       <div class="col s12 m10 l10 offset-l1 offset-m1 hoverable">
-        <h2 class="header flow-text">Puissance 4:</h2>
+        <h2 class="header flow-text center-align">Puissance 4:</h2>
         <div class="card horizontal">
           <div class="card-image">
             <img src="https://static1.terrafemina.com/articles/2/15/89/42/@/153137-puissance-4-comment-gagner-a-tous-les-coups--622x0-1.jpg">
@@ -89,7 +97,7 @@
         </div>
       </div>
       <div class="col s12 m10 l10 offset-l1 offset-m1 hoverable">
-        <h2 class="header flow-text">C'est plus, C'est moins:</h2>
+        <h2 class="header flow-text center-align">C'est plus, C'est moins:</h2>
         <div class="card horizontal">
           <div class="card-image right">
             <img src="image/cpluscmoins.jpg">
@@ -105,7 +113,7 @@
       </div>
     </div>
     <div class="col s12 m10 l10 offset-l1 offset-m1 hoverable">
-      <h2 class="header flow-text">C'est plus, C'est moins:</h2>
+      <h2 class="header flow-text center-align">C'est plus, C'est moins:</h2>
       <div class="card horizontal">
         <div class="card-image right">
           <img src="image/cpluscmoins.jpg">
