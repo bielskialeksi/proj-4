@@ -4,3 +4,11 @@
 .navbar-fixed-zindex{
   z-index: 998;
 }
+.divider-horizontal{
+  width: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+.divider-esater-egg{
+  height: 3px;
+}
