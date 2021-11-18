@@ -1,14 +1,45 @@
 .margin-top{
   margin-top: 2rem;
 }
+
 .navbar-fixed-zindex{
   z-index: 998;
 }
+
 .divider-horizontal{
   width: 1px;
   overflow: hidden;
   background-color: #e0e0e0;
 }
-.divider-esater-egg{
-  height: 3px;
+
+.carousel{
+  height:500px;
+}
+
+h2{
+  text-align: start;
+}
+
+p{
+  color: black;
+}
+
+.blue-screen, .bs-pc , .bs-mobile {
+  display: none;
+}
+.fake-mess-error{
+  word-wrap: break-word;
+  color: white;
+}
+
+
+@media only screen and (min-width: 993px) {
+  .bs-mobile {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .bs-pc {
+    display: none !important;
+  }
 }

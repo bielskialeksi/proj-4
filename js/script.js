@@ -4,9 +4,13 @@ $(document).ready(function(){
   });
 
   $('.carousel.carousel-slider').carousel({
-    fullWidth: true
   });
   $(document).ready(function(){
     $('.modal').modal();
   });
-         
+
+$("#btn").click(function(){
+      $("body").css("background-color","blue");
+      $(".ok").css("display","none");
+      $(".blue-screen").css("display","block");
+    })
