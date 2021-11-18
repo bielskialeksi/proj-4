@@ -37,15 +37,18 @@ p{
   .bs-mobile {
     display: none !important;
   }
+
 }
+
 @media only screen and (max-width: 993px) {
   .bs-pc {
     display: none !important;
   }
-  body{
-    height: 500px !important;
+  .parallax-container{
+    height: 10rem !important;
   }
 }
+
 .img-bs{
   width:75%;
   margin:0;
