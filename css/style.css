@@ -38,14 +38,13 @@ p{
     display: none !important;
   }
 }
+
 @media only screen and (max-width: 993px) {
   .bs-pc {
     display: none !important;
   }
-  body{
-    height: 500px !important;
-  }
 }
+
 .img-bs{
   width:75%;
   margin:0;
