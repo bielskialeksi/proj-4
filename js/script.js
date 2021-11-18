@@ -10,7 +10,10 @@ $(document).ready(function(){
   });
 
 $("#btn").click(function(){
-      $("body").css("background-color","blue");
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+        }
+      $("body").css("background-color","rgb(0,0,128)");
       $(".ok").css("display","none");
       $(".blue-screen").css("display","block");
     })
