@@ -1,14 +1,25 @@
 .margin-top{
   margin-top: 2rem;
 }
+
 .navbar-fixed-zindex{
   z-index: 998;
 }
+
 .divider-horizontal{
   width: 1px;
   overflow: hidden;
   background-color: #e0e0e0;
 }
-.divider-esater-egg{
-  height: 3px;
+
+.carousel{
+  height:500px;
+}
+
+h2{
+  text-align: start;
+}
+
+p{
+  color: black;
 }

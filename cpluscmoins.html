@@ -5,29 +5,98 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-
+    <link rel="stylesheet" href="css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <meta charset="utf-8">
-    <title>Framework CSS</title>
+    <title>Jean sais rien - C'est plus, c'est moins</title>
   </head>
-  <body>
-    <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo right">Logo</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="puissance4.html">Puissance 4</a></li>
-          <li><a href="#">C'est +, c'est -</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
-    </nav>
-    <p>C'est plus, c'est moins!</p>
+  <body class="center">
+    <div class="navbar-fixed navbar-fixed-zindex">
 
-    <script src="jquery.js"></script>
+      <ul id="dropdown-presentation" class="dropdown-content">
+        <li><a href="index.html#Aleksi">Aleksi</a></li>
+        <li class="divider"></li>
+        <li><a href="index.html#Shurturgal">Shurturgal</a></li>
+      </ul>
+
+      <ul id="dropdown-Projets" class="dropdown-content">
+        <li><a href="puissance4.html">puissance4</a></li>
+        <li class="divider"></li>
+        <li><a href="#">c'est plus, c'est moins</a></li>
+      </ul>
+
+      <ul id="dropdown-Projets-tel" class="dropdown-content">
+        <li><a href="puissance4.html">puissance4</a></li>
+        <li class="divider"></li>
+        <li><a href="#">c'est plus, c'est moins</a></li>
+      </ul>
+
+      <nav >
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">Jean sais rien</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="divider-horizontal">.</li>
+            <li><a href="index.html#presentation">Presentation</a></li>
+            <li class="divider-horizontal"><a href="https://www.ubisoft.com/fr-fr/">.</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown-Projets">Projets<i class="material-icons right">arrow_drop_down</i></a></li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown-Projets-tel">Projets<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class="divider"></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown-presentation">presentation<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class="divider .divider-esater-egg"><a href="https://www.ubisoft.com/fr-fr/"></a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col s12 m8 offset-m2 l4 offset-l4">
+        <h1>Puissance 4!</h1>
+        <div class="carousel carousel-slider">
+            <a class="carousel-item"><img src="image/hacka.jpg">Test1</a>
+            <a class="carousel-item"><img src="image/cpluscmoins.jpg">Test2</a>
+            <a class="carousel-item"><img src="image/jevilpfp.jpg">Test3</a>
+            <a class="carousel-item"><img src="image/puisance4.jpg">Test4</a>
+            <a class="carousel-item"><img src="image/tetopfp.jpg">
+              <p>Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+                Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+                Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+                Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+                Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+                Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5</p>
+            </a>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m8 offset-m2 l8 offset-l2 hoverable">
+        <h2>Description</h2>
+        <p> This is a text and I'm depressed <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+          Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5Test5 <br>
+        </p>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
     <!--JavaScript at end of body for optimized loading-->
     <script src="js/materialize.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
