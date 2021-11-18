@@ -37,11 +37,15 @@ p{
   .bs-mobile {
     display: none !important;
   }
+
 }
 
 @media only screen and (max-width: 993px) {
   .bs-pc {
     display: none !important;
+  }
+  .parallax-container{
+    height: 10rem !important;
   }
 }
 
