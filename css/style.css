@@ -24,7 +24,7 @@ p{
   color: black;
 }
 
-.blue-screen, .bs-pc , .bs-mobile {
+.blue-screen{
   display: none;
 }
 .fake-mess-error{
@@ -42,4 +42,11 @@ p{
   .bs-pc {
     display: none !important;
   }
+  body{
+    height: 500px !important;
+  }
+}
+.img-bs{
+  width:75%;
+  margin:0;
 }
