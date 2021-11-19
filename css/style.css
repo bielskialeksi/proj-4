@@ -1,3 +1,9 @@
+body{
+  background-color: #e53935;
+}
+
+
+
 .margin-top{
   margin-top: 2rem;
 }
@@ -15,7 +21,9 @@
 .carousel{
   height:1200px;
 }
-
+h1{
+  margin:2%;
+}
 h2{
   text-align: start;
 }
@@ -51,7 +59,7 @@ p{
 }
 
 .img-bs{
-  width:75%;
+  width:100%;
   margin:0;
 }
 

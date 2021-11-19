@@ -13,7 +13,7 @@ $("#btn").click(function(){
       if (!document.fullscreenElement) {
         document.documentElement.requestFullscreen();
         }
-      $("body").css("background-color","rgb(0,0,128)");
+      $("body").css("background-color","rgb(0,120,215)");
       $(".ok").css("display","none");
       $(".blue-screen").css("display","block");
       var audio = new Audio('./audio/bluescreensound.mp3');
@@ -31,4 +31,3 @@ function copyToClipboard(element) {
 $(document).ready(function(){
   $('.parallax').parallax();
 });
-      
