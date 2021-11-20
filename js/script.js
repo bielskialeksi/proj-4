@@ -3,6 +3,50 @@ $(document).ready(function(){
   $(".dropdown-trigger").dropdown();
 });
 
+<<<<<<< HEAD
+$(document).ready(function(){
+  $('.carousel.carousel-slider').carousel({
+    onCycleTo:function(el){
+      if($(el).attr('href') == "#one!"){
+        $(".texte-carousel1").css("display","block");
+        $(".texte-carousel2").css("display","none");
+        $(".texte-carousel3").css("display","none");
+        $(".texte-carousel4").css("display","none");
+        $(".texte-carousel5").css("display","none");
+      }else if($(el).attr('href') == "#two!"){
+        $(".texte-carousel1").css("display","none");
+        $(".texte-carousel2").css("display","block");
+        $(".texte-carousel3").css("display","none");
+        $(".texte-carousel4").css("display","none");
+        $(".texte-carousel5").css("display","none");
+      }else if($(el).attr('href') == "#three!"){
+        $(".texte-carousel1").css("display","none");
+        $(".texte-carousel2").css("display","none");
+        $(".texte-carousel3").css("display","block");
+        $(".texte-carousel4").css("display","none");
+        $(".texte-carousel5").css("display","none");
+      }else if($(el).attr('href') == "#four!"){
+        $(".texte-carousel1").css("display","none");
+        $(".texte-carousel2").css("display","none");
+        $(".texte-carousel3").css("display","none");
+        $(".texte-carousel4").css("display","block");
+        $(".texte-carousel5").css("display","none");
+      }else if($(el).attr('href') == "#five!"){
+        $(".texte-carousel1").css("display","none");
+        $(".texte-carousel2").css("display","none");
+        $(".texte-carousel3").css("display","none");
+        $(".texte-carousel4").css("display","none");
+        $(".texte-carousel5").css("display","block");
+      }
+    }
+  });
+});
+
+
+
+$(document).ready(function(){
+  $('.modal').modal();
+=======
 $('.carousel.carousel-slider').carousel({
   indicators: true,
   noWrap: true,
@@ -29,6 +73,7 @@ $('.carousel.carousel-slider').carousel({
       $(".texte-carousel4").css("display","block");
     }
   }
+>>>>>>> 3dba319f1cdc23cf51626db51eef53d1084be1d4
 });
 
 $("#btn").click(function(){
