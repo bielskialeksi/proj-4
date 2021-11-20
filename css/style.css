@@ -58,10 +58,9 @@ p{
   .bs-mobile {
     display: none !important;
   }
-
-.carousel{
-  height: 600px !important;
-}
+  .carousel{
+    height: 600px !important;
+  }
 }
 
 @media only screen and (max-width: 993px) {
