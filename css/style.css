@@ -29,7 +29,7 @@ h1{
   margin:2%;
 }
 h2{
-  text-align: start;
+  margin: 1rem 0 1.424rem 0
 }
 
 p{
@@ -77,4 +77,14 @@ p{
 
 .contact{
   display:none;
+}
+
+#modal1-bouton{
+  margin-bottom: 3vh !important;
+}
+
+.carousel{
+  display:flex !important;/*
+  flex-direction: column !important;*/
+  align-items: center !important;
 }

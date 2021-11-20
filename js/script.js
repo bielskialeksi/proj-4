@@ -4,6 +4,8 @@ $(document).ready(function(){
 });
 
 $('.carousel.carousel-slider').carousel({
+  indicators: true,
+  noWrap: true,
   onCycleTo:function(el){
     if($(el).attr('href') == "#one!"){
       $(".texte-carousel1").css("display","block");
