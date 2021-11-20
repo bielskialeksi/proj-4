@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   $('.sidenav').sidenav();
   $(".dropdown-trigger").dropdown();
@@ -55,6 +56,7 @@ $("#btn").click(function(){
   audio.play();
   })
 
+
 function copyToClipboard(element) {
   var $temp = $("<input>");
   $("body").append($temp);
@@ -68,4 +70,6 @@ $(document).ready(function(){
   $('.parallax').parallax();
 });
 
-M.toast({html: 'Discord ID copied to clipboard'})
+var toastElement = document.querySelector('.toast');
+var toastInstance = M.Toast.getInstance(toastElement);
+toastInstance.dismiss();
