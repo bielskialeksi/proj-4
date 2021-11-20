@@ -58,12 +58,10 @@ p{
   .bs-mobile {
     display: none !important;
   }
-<<<<<<< HEAD
-=======
-  .carousel{
-    height: 600px !important;
-  }
->>>>>>> 3dba319f1cdc23cf51626db51eef53d1084be1d4
+
+.carousel{
+  height: 600px !important;
+}
 }
 
 @media only screen and (max-width: 993px) {
@@ -73,12 +71,9 @@ p{
   .parallax-container{
     height: 10rem !important;
   }
-<<<<<<< HEAD
-=======
   .carousel{
-    height:400px !important;
+  height:400px !important;
   }
->>>>>>> 3dba319f1cdc23cf51626db51eef53d1084be1d4
 }
 
 .img-bs{
@@ -93,21 +88,14 @@ p{
 .contact{
   display:none;
 }
-<<<<<<< HEAD
+
 .texte-carousel1,.texte-carousel2,.texte-carousel3,.texte-carousel4,.texte-carousel5{
   display: none;
 }
 .color-white{
   color:white;
-=======
+}
 
 #modal1-bouton{
   margin-bottom: 3vh !important;
-}
-
-.carousel{
-  display:flex !important;/*
-  flex-direction: column !important;*/
-  align-items: center !important;
->>>>>>> 3dba319f1cdc23cf51626db51eef53d1084be1d4
 }
