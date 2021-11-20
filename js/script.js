@@ -47,9 +47,12 @@ function copyToClipboard(element) {
   $("body").append($temp);
   $temp.val($(element).text()).select();
   document.execCommand("copy");
+  M.toast({html: 'Discord ID copied to clipboard'})
   $temp.remove();
 }
 
 $(document).ready(function(){
   $('.parallax').parallax();
 });
+
+M.toast({html: 'Discord ID copied to clipboard'})

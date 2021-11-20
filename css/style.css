@@ -82,9 +82,3 @@ p{
 #modal1-bouton{
   margin-bottom: 3vh !important;
 }
-
-.carousel{
-  display:flex !important;/*
-  flex-direction: column !important;*/
-  align-items: center !important;
-}
