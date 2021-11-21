@@ -1,5 +1,6 @@
 body{
   background-color: #e53935;
+  width: 100%;
 }
 
 a{
@@ -48,15 +49,12 @@ p{
 .carousel .carousel-item{
   margin:0;
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 @media only screen and (min-width: 993px) {
   .bs-mobile {
     display: none !important;
-  }
-  .carousel{
-    height: 500px !important;
   }
 }
 
@@ -67,8 +65,8 @@ p{
   .parallax-container{
     height: 10rem !important;
   }
-  .carousel{
-  height:400px !important;
+  .brand-logo{
+    font-size: 1rem !important;
   }
 }
 
